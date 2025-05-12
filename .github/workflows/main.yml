@@ -1,0 +1,13 @@
+name: Simple Dummy Workflow
+
+on: [push]
+
+jobs:
+  update-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: update message
+        run: echo "React notes updated"
