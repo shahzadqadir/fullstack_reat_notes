@@ -1,1 +1,1 @@
-# fullstack_reat_notes
+# Full Stack JavaScript Notes (basically React)
